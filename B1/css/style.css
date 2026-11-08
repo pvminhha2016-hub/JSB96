@@ -1,0 +1,53 @@
+/* universe, priority: 5 */
+* {
+    color: red;
+}
+
+/* tag name, priority: 4 */
+p {
+    color: blue;
+}
+
+/* class name, priority: 3 */
+.sub-title {
+    color: green;
+}
+
+/* id name, priority: 2 */
+#sub1 {
+    color: yellow;
+}
+
+/* inline code, priority: 1
+vd: style="color:blueviolet"
+*/
+
+/* --------------------- */
+body {
+    /* vien trong */
+    padding:0 10%;
+    /* vien ngoai*/
+    margin: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_1280.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px none;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.avatar:hover { 
+    transform: scale(1.1);
+    transform: all 0.5s;
+}
