@@ -1,16 +1,16 @@
 /* universe, priority: 5 */
 * {
-    color: red;
+    color: rgb(255, 253, 253);
 }
 
 /* tag name, priority: 4 */
 p {
-    color: blue;
+    color: rgb(248, 248, 252);
 }
 
 /* class name, priority: 3 */
 .sub-title {
-    color: green;
+    color: rgb(28, 238, 28);
 }
 
 /* id name, priority: 2 */
@@ -31,6 +31,11 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_1280.jpg");
     background-size: cover;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 
