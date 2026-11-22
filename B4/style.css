@@ -1,0 +1,53 @@
+boby {
+    padding: 0;
+    margin: 0;
+
+}
+#vietnam, #greenland, #danmach {
+    height: 100vh;
+    margin: 30px;
+    padding: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid red;
+    color: red;
+}
+
+.laco {
+    width: 600px;
+    height: 200px;
+    background: red;
+
+}
+#vietnam .laco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
